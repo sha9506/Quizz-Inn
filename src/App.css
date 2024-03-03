@@ -89,3 +89,39 @@ body
 {
   color: rgb(19, 54, 31);
 }
+
+
+.now-playing
+{
+  background-color: #88ba88;
+  border-radius: 50px;
+  height: 37px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  margin-left: 80px;
+}
+
+.levels
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.level-box
+{
+  width: 404px;
+  height: 653px;
+  background-color: #88ba88;
+  border-radius: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  font-weight: bolder;
+  color: black;
+}
