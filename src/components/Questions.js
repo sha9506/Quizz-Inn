@@ -1,12 +1,15 @@
 import React from "react";
 
-const Questions=()=>
+const Questions=({quizzItem})=>
 {
     return(<div>
         <div className="home-head"><div> YOU CAN DO IT!!</div></div>
         <div className="home-background">
-            <div>
-            </div>
+                {quizzItem.map((item)=>{
+                    return(<div className="question-item">
+                        <div className="question">{item.question}</div>
+                    </div>)
+                })}
         </div>
     </div>)
 }

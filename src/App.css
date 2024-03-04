@@ -102,7 +102,7 @@ body
   align-items: center;
   color: black;
   font-weight: bold;
-  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .levels
@@ -124,4 +124,30 @@ body
   font-size: 120px;
   font-weight: bolder;
   color: black;
+}
+
+
+.question-item
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question
+{
+  font-size: 46px;
+  font-weight: bolder;
+}
+
+.score-circle
+{
+  height: 499px;
+  width: 499px;
+  background-color: #88ba88;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:128px;
+  border-radius: 1000px;
 }
