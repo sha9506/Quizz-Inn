@@ -15,10 +15,7 @@ function App()
       {
         question: 'Who was Lorenzo Von Matterhorn?',
         answer: 'Barney Stinson',
-            a: 'Lily Aldrin',
-            b: 'Marshal Erikson',
-            c: 'Barney Stinson',
-            d: 'Ted Mosby'
+        options:['Lily Aldrin','Marshal Erikson','Barney Stinson','Ted Mosby']
       }
     ]
   )

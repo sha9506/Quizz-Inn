@@ -140,6 +140,22 @@ body
   font-weight: bolder;
 }
 
+.options
+{
+  width:1047px ;
+  height: 81px;
+  background-color:rgb(191, 184, 184);
+  margin-top: 30px;
+display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+
 .score-circle
 {
   height: 499px;

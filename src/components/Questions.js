@@ -8,7 +8,13 @@ const Questions=({quizzItem})=>
                 {quizzItem.map((item)=>{
                     return(<div className="question-item">
                         <div className="question">{item.question}</div>
+                        {item.options.map((opt)=>{
+                            return(<div className="options">
+                                {opt}
+                            </div>)
+                        })}
                     </div>)
+                   
                 })}
         </div>
     </div>)
